@@ -4,14 +4,47 @@ h1,
 p {
     margin: 0;
 }
-html{
+
+html {
     overflow-x: hidden;
 }
 
 header {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #29577e;
     width: 100%;
+}
+
+#timer {
+    column-gap: 50px;
+    border: 2px solid lightblue;
+    background-color: whitesmoke;
+    border-radius: 0 10px 0px 10px;
+    padding: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.clock{
+    font-size: 45px;
+    transition: 0.2s;
+}
+
+button {
+
+    font-size: 30px;
+    border: 0;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
 }
 
 h1 {
@@ -43,18 +76,21 @@ h1 {
 
 .qText {
     font-style: italic;
-font-size: 20px;
+    font-size: 20px;
 }
-ol{
+
+ol {
     list-style-type: lower-alpha;
 }
+
 .qAnswer {
     margin: 8px;
     padding: 5px;
     background-color: whitesmoke;
     border-radius: 0 5px;
 }
-.qAnswer:hover{
+
+.qAnswer:hover {
     background-color: lightblue;
 }
 

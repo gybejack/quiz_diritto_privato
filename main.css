@@ -1,0 +1,80 @@
+/* Phone */
+body,
+h1,
+p {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background: #29577e;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    padding: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.question {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.qText {
+    font-style: italic;
+font-size: 20px;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+.qAnswer {
+    margin: 8px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 0 5px;
+}
+.qAnswer:hover{
+    background-color: lightblue;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

@@ -4,6 +4,9 @@ h1,
 p {
     margin: 0;
 }
+html{
+    overflow-x: hidden;
+}
 
 header {
     padding: 10px;
